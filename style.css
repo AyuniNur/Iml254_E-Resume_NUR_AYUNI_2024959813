@@ -1,0 +1,633 @@
+
+
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><title>Home</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>My Personal Website</header>
+<img src="images/logo.jpg" class="center-logo" style="display:block;margin:15px auto;width:180px;border-radius:20px;box-shadow:0 4px 12px rgba(0,0,0,0.3);">
+<nav>
+<a href="index.html">Index</a>
+<a href="about.html">About</a>
+<a href="education.html">Education</a>
+<a href="skills.html">Skills</a>
+<a href="hobbies.html">Hobbies</a>
+<a href="gallery.html">Gallery</a>
+<a href="contact.html">Contact</a>
+</nav>
+<section>
+<h2>Contact Me</h2>
+
+<!-- Contact Boxes Container -->
+<div style="display:flex; gap:30px; flex-wrap:wrap; justify-content:center; margin-top:30px;">
+
+    <!-- Phone Box -->
+    <div style="flex:1; min-width:260px; background:linear-gradient(135deg,#E6E0F8,#C1D9F0); padding:20px; border-radius:15px; box-shadow:0 4px 12px rgba(0,0,0,0.15);">
+        <div style="display:flex; align-items:center; gap:12px;">
+            <span style="font-size:28px;">📱</span>
+            <h3 style="margin:0;">Phone</h3>
+        </div>
+        <p style="margin-left:40px; font-size:17px;">018-9075294</p>
+    </div>
+
+    <!-- Email Box -->
+    <div style="flex:1; min-width:260px; background:linear-gradient(135deg,#E6E0F8,#C1D9F0); padding:20px; border-radius:15px; box-shadow:0 4px 12px rgba(0,0,0,0.15);">
+        <div style="display:flex; align-items:center; gap:12px;">
+            <span style="font-size:28px;">📧</span>
+            <h3 style="margin:0;">Email</h3>
+        </div>
+        <p style="margin-left:40px; font-size:17px;">ayunibakri45@gmail.com</p>
+    </div>
+</div>
+
+<!-- Message Form Box -->
+<div style="background:linear-gradient(135deg,#E6E0F8,#C1D9F0); padding:30px; border-radius:20px; box-shadow:0 4px 12px rgba(0,0,0,0.15); max-width:700px; margin:40px auto;">
+    <h3 style="text-align:center;">Send me a Message</h3>
+
+    <form>
+        <label>Name</label><br>
+        <input type="text" placeholder="Your Name" style="width:100%; padding:10px; border-radius:10px; border:1px solid #bbb; margin-bottom:15px;"><br>
+
+        <label>Email</label><br>
+        <input type="email" placeholder="your.email@example.com" style="width:100%; padding:10px; border-radius:10px; border:1px solid #bbb; margin-bottom:15px;"><br>
+
+        <label>Message</label><br>
+        <textarea placeholder="Your message here..." rows="5" style="width:100%; padding:10px; border-radius:10px; border:1px solid #bbb; margin-bottom:15px;"></textarea>
+
+        <button type="submit" style="float:right; background:linear-gradient(135deg,#7A5AF5,#4F3CC9); color:white; padding:12px 25px; border:none; border-radius:12px; font-size:16px; cursor:pointer; box-shadow:0 4px 10px rgba(0,0,0,0.2);">Send Message ✉️</button>
+    </form>
+
+    <div style="clear:both;"></div>
+</div>
+
+</section>
+<footer>© 2025 | All Rights Reserved</footer>
+</body>
+</html>
+
+<!-- about.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><title>About Me</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>About Me</header>
+<img src="images/logo.jpg" class="center-logo" style="display:block;margin:15px auto;width:180px;border-radius:20px;box-shadow:0 4px 12px rgba(0,0,0,0.3);">
+<nav>
+<a href="index.html">Index</a><a href="about.html">About</a><a href="education.html">Education</a><a href="skills.html">Skills</a><a href="hobbies.html">Hobbies</a><a href="gallery.html">Gallery</a><a href="contact.html">Contact</a>
+</nav>
+<section>
+<h2>About Me</h2>
+<style>
+.info-box {
+    background: linear-gradient(135deg, #E6E0F8 0%, #C1D9F0 100%);
+    padding: 18px;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+    margin-bottom: 18px;
+}
+</style>
+
+<div class="info-box" style="text-align:center;">
+<img src="images/mypic.jpg" alt="My Photo" style="width:200px;border-radius:15px;box-shadow:0 4px 10px rgba(0,0,0,0.2);margin-bottom:10px;">
+<p><strong>Name:</strong> Nur Ayuni Binti Ahmad Bakri</p>
+</div>
+
+<div class="info-box">
+<p><strong>Age:</strong> 20 years old</p>
+</div>
+
+<div class="info-box">
+<p><strong>Date of Birth:</strong> 04 May 2005</p>
+</div>
+
+<div class="info-box">
+<p><strong>Hometown:</strong> Lot Pt 182 Kampung Padang Lachang, 16450 Ketereh, Kelantan</p>
+</div>
+
+<div class="info-box">
+<p><strong>Current Study:</strong> Diploma in Informatics Library, UiTM Merbok</p>
+</div>
+
+<div class="info-box">
+<p><strong>Current CGPA:</strong> 3.01</p>
+</div>
+
+<div class="info-box">
+<p>Motivated and responsible student, seeking an opportunity to gain hands-on experience and enhance knowledge in library and information management. Dedicated to learning new skills, contributing effectively to team tasks, and delivering quality work with professionalism and enthusiasm.</p>
+</div>
+</section>
+<footer>© 2025 | All Rights Reserved</footer>
+</body>
+</html>
+
+<!-- education.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><title>Education</title>
+<link rel="stylesheet" href="style.css">
+<style>
+.edu-box {
+    background: linear-gradient(135deg, #E6E0F8 0%, #C1D9F0 100%);
+    padding: 18px;
+    border-radius: 15px;
+    border: 2px solid rgba(255,255,255,0.6);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    margin-bottom: 20px;
+    transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+.edu-box:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.25);
+}
+</style>
+</head>
+<body>
+<header>Education</header>
+<img src="images/logo.jpg" class="center-logo" style="display:block;margin:15px auto;width:180px;border-radius:20px;box-shadow:0 4px 12px rgba(0,0,0,0.3);">
+<nav>
+<a href="index.html">Index</a><a href="about.html">About</a><a href="education.html">Education</a><a href="skills.html">Skills</a><a href="hobbies.html">Hobbies</a><a href="gallery.html">Gallery</a><a href="contact.html">Contact</a>
+</nav>
+<section>
+<h2>My Education</h2>
+
+<div class="edu-box">
+<h3>📘 UNIVERSITI TEKNOLOGI MARA</h3>
+<p><strong>(2024 - 2026)</strong></p>
+<p><strong>CGPA:</strong> 3.01</p>
+</div>
+
+<div class="edu-box">
+<h3>🏫 SEKOLAH MENENGAH KEBANGSAAN KADOK</h3>
+<p><strong>(2018 - 2022)</strong></p>
+<p><strong>SPM Results:</strong> 2A-, 1B+, 1B, 1C+, 3D, 1E</p>
+</div>
+
+</section>
+<footer>© 2025 Ayuni Bakri| All Rights Reserved</footer>
+</body>
+</html>
+
+
+<!-- skills.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><title>Skills</title>
+<link rel="stylesheet" href="style.css">
+<style>
+.skill-box {
+    background: linear-gradient(135deg, #E6E0F8 0%, #C1D9F0 100%);
+    padding: 18px;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+    margin-bottom: 18px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 18px;
+    transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+.skill-box:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.25);
+}
+.skill-icon {
+    font-size: 28px;
+}
+</style>
+</head>
+<body>
+<header>Skills</header>
+<img src="images/logo.jpg" class="center-logo" style="display:block;margin:15px auto;width:180px;border-radius:20px;box-shadow:0 4px 12px rgba(0,0,0,0.3);">
+<nav>
+<a href="index.html">Index</a><a href="about.html">About</a><a href="education.html">Education</a><a href="skills.html">Skills</a><a href="hobbies.html">Hobbies</a><a href="gallery.html">Gallery</a><a href="contact.html">Contact</a>
+</nav>
+<section>
+<h2>My Skills</h2>
+
+<div class="skill-box"><span class="skill-icon">📄</span> Proficient in Microsoft Word</div>
+<div class="skill-box"><span class="skill-icon">🎨</span> Skilled in Canva for creative design</div>
+<div class="skill-box"><span class="skill-icon">🖥️</span> Basic knowledge of Adobe applications</div>
+<div class="skill-box"><span class="skill-icon">📚</span> Cataloging</div>
+<div class="skill-box"><span class="skill-icon">💻</span> HTML & Basic Web Design</div>
+<div class="skill-box"><span class="skill-icon">⏱️</span> Strong organizational & time management skills</div>
+
+</section>
+<footer>© 2025 Ayuni Bakri| All Rights Reserved</footer>
+</body>
+</html>
+
+<!-- hobbies.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><title>Hobbies</title>
+<link rel="stylesheet" href="style.css">
+<style>
+.hobby-box {
+    background: linear-gradient(135deg, #E6E0F8 0%, #C1D9F0 100%);
+    padding: 18px;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+    margin-bottom: 20px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.hobby-box:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.25);
+}
+.hobby-img {
+    width: 130px;
+    height: 130px;
+    border-radius: 12px;
+    background-color: #ffffff80;
+    border: 1px solid #ccc;
+    object-fit: cover;
+}
+.hobby-text {
+    font-size: 18px;
+}
+</style>
+</head>
+<body>
+<header>Hobbies</header>
+<img src="images/logo.jpg" class="center-logo" style="display:block;margin:15px auto;width:180px;border-radius:20px;box-shadow:0 4px 12px rgba(0,0,0,0.3);">
+<nav>
+<a href="index.html">Index</a><a href="about.html">About</a><a href="education.html">Education</a><a href="skills.html">Skills</a><a href="hobbies.html">Hobbies</a><a href="gallery.html">Gallery</a><a href="contact.html">Contact</a>
+</nav>
+<section>
+<h2>My Hobbies</h2>
+
+<div class="hobby-box">
+<img class="hobby-img" src="images/reading.jpg" alt="Reading Books">
+<p class="hobby-text"><strong>Reading Books:</strong> I really like reading books; when I have time, I will read novels and comics. My favorite genres are fantasy, comedy, and slice of life.</p>
+</div>
+
+<div class="hobby-box">
+<img class="hobby-img" src="images/music.jpg" alt="Listening to Music">
+<p class="hobby-text"><strong>Listening to Music:</strong> I like to listen to music while reading, working, or relaxing. My favorite music genres are K-pop, J-pop, and C-pop.</p>
+</div>
+
+<div class="hobby-box">
+<img class="hobby-img" src="images/movie.jpg" alt="Watching Movies">
+<p class="hobby-text"><strong>Watching Movies:</strong> When I'm bored or when I'm eating, I like to watch movies; my favorite genres are horror and action.</p>
+</div>
+
+<div class="hobby-box">
+<img class="hobby-img" src="images/cooking.jpg" alt="Cooking">
+<p class="hobby-text"><strong>Cooking:</strong> I really like to try new recipes that I find on social media; my favorite recipes are pastry and Western food.</p>
+</div>
+
+</section>
+<footer>© 2025 Ayuni BAkri| All Rights Reserved</footer>
+</body>
+</html>
+
+
+<!-- gallery.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><title>Gallery</title>
+<link rel="stylesheet" href="style.css">
+<style>
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+.gallery-item {
+    background: linear-gradient(135deg, #E6E0F8 0%, #C1D9F0 100%);
+    padding: 15px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+.gallery-item:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.25);
+}
+.gallery-img {
+    width: 100%;
+    height: 150px;
+    border-radius: 12px;
+    object-fit: cover;
+    border: 3px solid white;
+}
+.video-box {
+    grid-column: 1 / -1;
+    justify-self: center;
+    max-width: 600px;
+    text-align: center;
+}
+.video-box iframe {
+    border-radius: 15px;
+}
+</style>
+</head>
+<body>
+<header>Gallery</header>
+<img src="images/logo.jpg" class="center-logo" style="display:block;margin:15px auto;width:180px;border-radius:20px;box-shadow:0 4px 12px rgba(0,0,0,0.3);">
+<nav>
+<a href="index.html">Index</a><a href="about.html">About</a><a href="education.html">Education</a><a href="skills.html">Skills</a><a href="hobbies.html">Hobbies</a><a href="gallery.html">Gallery</a><a href="contact.html">Contact</a>
+</nav>
+<section>
+<h2>My Gallery</h2>
+
+<div class="gallery-grid">
+
+<div class="gallery-item">
+<img class="gallery-img" src="images/img1.jpg" alt="Image 1">
+<p>One of the meals I've cooked</p>
+</div>
+<div class="gallery-item">
+<img class="gallery-img" src="images/img2.jpg" alt="Image 2">
+<p>Random picture of me in front of the national museum</p>
+</div>
+<div class="gallery-item">
+<img class="gallery-img" src="images/img3.jpg" alt="Image 3">
+<p>Random scenery pictures that I took</p>
+</div>
+<div class="gallery-item">
+    <img class="gallery-img" src="images/img4.jpg" alt="Image 4">
+    <p>my favorite type of book</p>
+</div>
+
+</div>
+</section>
+<footer>© 2025 | Ayuni Bakri All Rights Reserved</footer>
+</body>
+</html>
+
+
+<!-- contact.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><title>Contact</title>
+<link rel="stylesheet" href="style.css">
+<style>
+.contact-wrapper{
+    display:flex;
+    gap:30px;
+    margin-top:20px;
+}
+
+.contact-column, .message-column{
+    flex:1;
+}
+
+.contact-box{
+    background: linear-gradient(135deg,#ffffff,#e6e6ff);
+    padding:20px;
+    border-radius:18px;
+    margin-bottom:18px;
+    box-shadow:0 6px 15px rgba(0,0,0,0.15);
+    display:flex;
+    align-items:center;
+    gap:15px;
+}
+.contact-icon{
+    font-size:30px;
+}
+
+.message-box{
+    background: linear-gradient(135deg,#ffffff,#dde3ff);
+    padding:25px;
+    border-radius:20px;
+    box-shadow:0 6px 18px rgba(0,0,0,0.2);
+}
+
+input, textarea{
+    width:100%;
+    padding:12px;
+    margin-bottom:12px;
+    border:none;
+    border-radius:12px;
+    background:white;
+    box-shadow:0 2px 6px rgba(0,0,0,0.1);
+}
+
+button{
+    width:100%;
+    padding:15px;
+    background:linear-gradient(135deg,#6e8bff,#5c2ea6);
+    border:none;
+    border-radius:12px;
+    color:white;
+    font-size:18px;
+    cursor:pointer;
+    margin-top:10px;
+    transition:0.3s;
+}
+button:hover{
+    background:linear-gradient(135deg,#a88bff,#6e4acb);
+}
+</style>
+</head>
+<body>
+<header>Contact</header>
+<img src="images/logo.jpg" class="center-logo" style="display:block;margin:15px auto;width:180px;border-radius:20px;box-shadow:0 4px 12px rgba(0,0,0,0.3);">
+<nav>
+<a href="index.html">Index</a><a href="about.html">About</a><a href="education.html">Education</a><a href="skills.html">Skills</a><a href="hobbies.html">Hobbies</a><a href="gallery.html">Gallery</a><a href="contact.html">Contact</a>
+</nav>
+<section>
+<h2 style="text-align:center;color:#1B1F3B;">Contact Me</h2>
+<p style="text-align:center;color:#333;">Feel free to contact me for inquiries, opportunities, or collaboration.</p>
+
+<div class="contact-wrapper">
+
+<div class="contact-column">
+    <div class="contact-box"><span class="contact-icon">📱</span><div><strong>Phone</strong><br>011-12538212</div></div>
+    <div class="contact-box"><span class="contact-icon">📧</span><div><strong>Email</strong><br>ayuni@example.com</div></div>
+</div>
+
+<div class="message-column">
+    <h3 style="color:#1B1F3B;">Send a Quick Message</h3>
+    <div class="message-box">
+        <form>
+            <label><strong>Name</strong></label>
+            <input type="text" placeholder="Your Name" required>
+
+            <label><strong>Email</strong></label>
+            <input type="email" placeholder="your.email@example.com" required>
+
+            <label><strong>Message</strong></label>
+            <textarea rows="5" placeholder="Your message here..." required></textarea>
+
+            <button type="submit">Send Message ✉️</button>
+        </form>
+    </div>
+</div>
+
+</div>
+</section>
+<footer>© 2025 | Premium Theme</footer>
+</body>
+</html>
+
+/* ===== Page Load Animation ===== */
+@keyframes pageFade {
+    from {
+        opacity: 0;
+        transform: translateY(15px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes sectionUp {
+    from {
+        opacity: 0;
+        transform: translateY(25px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+<!-- style.css -->
+/* Cleaned & Fixed CSS — Premium Pastel Theme */
+
+/* ✨ Global Background Animation */
+@keyframes bgGlow {
+    0% { background-position: 0% 50%; filter: brightness(1); }
+    50% { background-position: 100% 50%; filter: brightness(1.15); }
+    100% { background-position: 0% 50%; filter: brightness(1); }
+}
+
+body {
+    background: linear-gradient(135deg, #ede9ff 0%, #dbe7ff 50%, #f3eaff 100%);
+    background-size: 400% 400%;
+    animation: bgGlow 10s ease-in-out infinite, pageFade 0.8s ease;
+    font-family: Arial;
+    margin: 0;
+}
+
+header {
+    background: linear-gradient(135deg, #cfc8ff 0%, #dbe7ff 100%);
+    padding: 25px;
+    font-size: 32px;
+    text-align: center;
+    color: #3E3E3E;
+    border-bottom: 2px solid rgba(255,255,255,0.6);
+}
+
+nav {
+    background: linear-gradient(135deg, #cfc8ff 0%, #e4e8ff 100%);
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+nav a {
+    margin: 8px;
+    background: linear-gradient(135deg, #ffffff, #e9e4ff);
+    padding: 12px 24px;
+    border-radius: 25px;
+    text-decoration: none;
+    color: #4F3CC9;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 0.4px;
+    border: 2px solid #b8adff;
+    box-shadow: 0 6px 15px rgba(122, 90, 245, 0.35);
+    transition: all 0.35s ease;
+}
+
+nav a:hover {
+    background: linear-gradient(135deg, #7A5AF5, #4F3CC9);
+    color: white;
+    transform: translateY(-6px) scale(1.08);
+    box-shadow: 0 10px 25px rgba(79, 60, 201, 0.45);
+}
+
+/* ✨ Animated Buttons */
+button, .btn {
+    background: linear-gradient(135deg, #c8b6ff, #8fa6ff);
+    border: none;
+    padding: 12px 25px;
+    border-radius: 12px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.35s ease;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+button:hover, .btn:hover {
+    background: linear-gradient(135deg, #bda0ff, #7b90ff);
+    transform: translateY(-4px);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+}  
+/* ✨ Section / Content Box */
+section {
+    background: linear-gradient(135deg, #f3e8ff 0%, #e0e7ff 40%, #fff4d4 100%);
+    margin: 30px auto;
+    padding: 30px;
+    max-width: 900px;
+    border-radius: 15px;
+    border: 2px solid rgba(255, 255, 255, 0.6);
+    box-shadow: 0 0 18px rgba(175, 140, 255, 0.5);
+    backdrop-filter: blur(6px);
+    animation: sectionUp 0.9s ease;
+
+}
+
+/* ✨ Glowing Premium Boxes */
+.info-box,
+.skill-box,
+.hobby-box,
+.edu-box,
+.gallery-item {
+    background: linear-gradient(135deg, #f5edff 0%, #e8f0ff 50%, #fff7dd 100%);
+    padding: 18px;
+    border-radius: 15px;
+    border: 2px solid rgba(255,255,255,0.7);
+    box-shadow: 0 0 18px rgba(200,150,255,0.45);
+    transition: transform 0.4s ease, box-shadow 0.4s ease, background 0.4s ease;
+}
+
+.info-box:hover,
+.skill-box:hover,
+.hobby-box:hover,
+.edu-box:hover,
+.gallery-item:hover {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 0 25px rgba(180,120,255,0.6);
+    background: linear-gradient(135deg, #f0e6ff 0%, #dceaff 50%, #fff0c8 100%);
+}
+/* ✨ Footer */
+footer {
+    background: linear-gradient(135deg, #cfc8ff 0%, #e4e8ff 100%);
+    padding: 20px;
+    text-align: center;
+    color: #3E3E3E;
+    margin-top: 40px;
+    border-top: 2px solid rgba(255,255,255,0.6);
+}
+
+/* ===== Global Smooth Transitions ===== */
+* {
+    transition: background 0.4s ease,
+                color 0.4s ease,
+                transform 0.4s ease,
+                box-shadow 0.4s ease;
+}
+
+
