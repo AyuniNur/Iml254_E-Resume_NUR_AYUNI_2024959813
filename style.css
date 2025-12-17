@@ -1,0 +1,311 @@
+/* Cleaned & Fixed CSS — Premium Pastel Theme */
+
+/* ✨ Global Background Animation */
+@keyframes bgGlow {
+    0% { background-position: 0% 50%; filter: brightness(1); }
+    50% { background-position: 100% 50%; filter: brightness(1.15); }
+    100% { background-position: 0% 50%; filter: brightness(1); }
+}
+
+body {
+    background: linear-gradient(135deg, #ede9ff 0%, #dbe7ff 50%, #f3eaff 100%);
+    background-size: 400% 400%;
+    animation: bgGlow 10s ease-in-out infinite, pageFade 0.8s ease;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+/* ===== Page Load Animation (Part 1) ===== */
+@keyframes pageFade {
+    from {
+        opacity: 0;
+        transform: translateY(15px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* ===== Section Load Animation (Part 2) ===== */
+@keyframes sectionUp {
+    from {
+        opacity: 0;
+        transform: translateY(25px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+header {
+    background: linear-gradient(135deg, #cfc8ff 0%, #dbe7ff 100%);
+    padding: 25px;
+    font-size: 32px;
+    text-align: center;
+    color: #3E3E3E;
+    border-bottom: 2px solid rgba(255,255,255,0.6);
+}
+
+nav {
+    background: linear-gradient(135deg, #cfc8ff 0%, #e4e8ff 100%);
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+nav a {
+    margin: 8px;
+    background: linear-gradient(135deg, #ffffff, #e9e4ff);
+    padding: 12px 24px;
+    border-radius: 25px;
+    text-decoration: none;
+    color: #4F3CC9;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 0.4px;
+    border: 2px solid #b8adff;
+    box-shadow: 0 6px 15px rgba(122, 90, 245, 0.35);
+    transition: all 0.35s ease;
+}
+
+nav a:hover {
+    background: linear-gradient(135deg, #7A5AF5, #4F3CC9);
+    color: white;
+    transform: translateY(-6px) scale(1.08);
+    box-shadow: 0 10px 25px rgba(79, 60, 201, 0.45);
+}
+
+/* ✨ Animated Buttons */
+button, .btn {
+    background: linear-gradient(135deg, #c8b6ff, #8fa6ff);
+    border: none;
+    padding: 12px 25px;
+    border-radius: 12px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.35s ease;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+button:hover, .btn:hover {
+    background: linear-gradient(135deg, #bda0ff, #7b90ff);
+    transform: translateY(-4px);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+}  
+
+/* ✨ Section / Content Box */
+section {
+    background: linear-gradient(135deg, #f3e8ff 0%, #e0e7ff 40%, #fff4d4 100%);
+    margin: 30px auto;
+    padding: 30px;
+    max-width: 900px;
+    border-radius: 15px;
+    border: 2px solid rgba(255, 255, 255, 0.6);
+    box-shadow: 0 0 18px rgba(175, 140, 255, 0.5);
+    backdrop-filter: blur(6px);
+    animation: sectionUp 0.9s ease;
+}
+
+/* Section Headings */
+section h2, section h3 {
+    color: #4F3CC9;
+    text-align: center;
+    margin-top: 0;
+}
+
+/* ✨ Glowing Premium Boxes (Base Style) */
+.info-box,
+.skill-box,
+.hobby-box,
+.edu-box,
+.gallery-item {
+    /* Base background for all content boxes */
+    background: linear-gradient(135deg, #f5edff 0%, #e8f0ff 50%, #fff7dd 100%);
+    padding: 18px;
+    border-radius: 15px;
+    border: 2px solid rgba(255,255,255,0.7);
+    box-shadow: 0 0 18px rgba(200,150,255,0.45);
+    transition: transform 0.4s ease, box-shadow 0.4s ease, background 0.4s ease;
+}
+
+.info-box:hover,
+.skill-box:hover,
+.hobby-box:hover,
+.edu-box:hover,
+.gallery-item:hover {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 0 25px rgba(180,120,255,0.6);
+    background: linear-gradient(135deg, #f0e6ff 0%, #dceaff 50%, #fff0c8 100%);
+}
+
+/* Contact Page Specific Styles (Overriding base .info-box) */
+.contact-box {
+    background: linear-gradient(135deg,#ffffff,#e6e6ff); /* Specific style from contact.html */
+    padding:20px;
+    border-radius:18px;
+    margin-bottom:18px;
+    box-shadow:0 6px 15px rgba(0,0,0,0.15);
+    display:flex;
+    align-items:center;
+    gap:15px;
+    transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+.contact-box:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+}
+.contact-icon{
+    font-size:30px;
+}
+.contact-wrapper{
+    display:flex;
+    gap:30px;
+    margin-top:20px;
+    flex-wrap: wrap; /* Added for responsiveness */
+}
+.contact-column, .message-column{
+    flex:1;
+    min-width: 300px; /* Added for responsiveness */
+}
+.message-box{
+    background: linear-gradient(135deg,#ffffff,#dde3ff);
+    padding:25px;
+    border-radius:20px;
+    box-shadow:0 6px 18px rgba(0,0,0,0.2);
+}
+input, textarea{
+    width:100%;
+    padding:12px;
+    margin-bottom:12px;
+    border:none;
+    border-radius:12px;
+    background:white;
+    box-shadow:0 2px 6px rgba(0,0,0,0.1);
+}
+/* Contact Form Button - specific override */
+.message-column button{ 
+    background:linear-gradient(135deg,#6e8bff,#5c2ea6);
+}
+.message-column button:hover{
+    background:linear-gradient(135deg,#a88bff,#6e4acb);
+}
+
+
+/* Skills Page Specific Styles (Inherits from .skill-box base) */
+.skill-box {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 18px;
+}
+.skill-icon {
+    font-size: 28px;
+}
+
+/* Hobbies Page Specific Styles (Inherits from .hobby-box base) */
+.hobby-box {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.hobby-img {
+    width: 130px;
+    height: 130px;
+    border-radius: 12px;
+    background-color: #ffffff80;
+    border: 1px solid #ccc;
+    object-fit: cover;
+}
+.hobby-text {
+    flex: 1; /* Make text take remaining space */
+    font-size: 18px;
+}
+
+/* Gallery Page Specific Styles (Inherits from .gallery-item base) */
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive grid */
+    gap: 20px;
+}
+.gallery-img {
+    width: 100%;
+    height: 150px;
+    border-radius: 12px;
+    object-fit: cover;
+    border: 3px solid white;
+}
+.video-box {
+    grid-column: 1 / -1;
+    justify-self: center;
+    max-width: 600px;
+    text-align: center;
+}
+.video-box iframe {
+    border-radius: 15px;
+    width: 100%;
+}
+/* Center Logo */
+.center-logo {
+    display:block;
+    margin:15px auto;
+    width:auto;
+    max-width: 800px;
+    height: auto;
+    border-radius:20px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.3);
+}
+
+/* ✨ Footer */
+footer {
+    background: linear-gradient(135deg, #cfc8ff 0%, #e4e8ff 100%);
+    padding: 20px;
+    text-align: center;
+    color: #3E3E3E;
+    margin-top: 40px;
+    border-top: 2px solid rgba(255,255,255,0.6);
+}
+
+/* --- NEW CSS for Fixed "Back to Top" Button --- */
+.back-to-top-btn {
+    position: fixed;
+    bottom: 30px;     right: 30px; 
+    z-index: 1000;
+    text-decoration: none;
+}
+
+/* ===== Global Smooth Transitions ===== */
+* {
+    transition: background 0.4s ease,
+                color 0.4s ease,
+                transform 0.4s ease,
+                box-shadow 0.4s ease;
+}
+
+/* Media Query for smaller screens */
+@media (max-width: 768px) {
+    .hobby-box {
+        flex-direction: column;
+        text-align: center;
+    }
+    .hobby-img {
+        margin-bottom: 10px;
+    }
+    .gallery-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+    .contact-wrapper {
+        flex-direction: column;
+    }
+    .contact-column, .message-column {
+        min-width: 100%;
+    }
+}
+@media (max-width: 480px) {
+    .gallery-grid {
+        grid-template-columns: 1fr;
+    }
+
+
